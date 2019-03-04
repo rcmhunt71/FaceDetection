@@ -46,7 +46,7 @@ def analyze_image(analysis, image, classifier):
 
 
 def display_image_with_matches(image):
-    cv.imshow('Image', image)
+    cv.imshow('{0}'.format(args.image), image)
     cv.waitKey(0)
     cv.destroyAllWindows()
 
